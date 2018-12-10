@@ -22,6 +22,12 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
 - [chai](https://www.npmjs.com/package/chai) and [@types/chai](https://www.npmjs.com/package/@types/chai)
 - [mocha](https://www.npmjs.com/package/mocha) and [@types/mocha](https://www.npmjs.com/package/@types/mocha)
 
+### Runtime dependencies
+- [react](https://www.npmjs.com/package/react) and [@types/react](https://www.npmjs.com/package/@types/react)
+- [react-dom](https://www.npmjs.com/package/react-dom) and [@types/react-dom](https://www.npmjs.com/package/@types/react-dom)
+- [react-redux](https://www.npmjs.com/package/react-redux) and [@types/react-redux](https://www.npmjs.com/package/@types/react-redux)
+- [redux](https://www.npmjs.com/package/redux)
+
 ## How to use project scaffold
 1. Fork this repository or
 1. Download the source files
