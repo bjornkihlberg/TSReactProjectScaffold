@@ -1,0 +1,30 @@
+{
+  "name": "tsreactprojectscaffold",
+  "version": "1.0.0",
+  "description": "ts react project scaffold",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjornkihlberg/TSReactProjectScaffold.git"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "redux",
+    "project",
+    "scaffold",
+    "tslint",
+    "mocha",
+    "chai",
+    "webpack"
+  ],
+  "author": "bjorn.wilhelm.kihlberg@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjornkihlberg/TSReactProjectScaffold/issues"
+  },
+  "homepage": "https://github.com/bjornkihlberg/TSReactProjectScaffold#readme"
+}
