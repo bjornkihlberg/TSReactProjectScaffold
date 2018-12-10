@@ -37,3 +37,11 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
 1. Run command `npm install` to download dependencies
 1. Run build process with command `npm run build`
 1. Run tests with command `npm test`
+
+## How to reproduce project scaffold manually
+1. Initialize npm project with command `npm init`
+1. Install development dependencies with command `npm i -D package-name`
+    - for example: `npm i -D ts-loader`
+1. Install runtime dependencies with command `npm i -S package-name`
+    - for example: `npm i -S react`
+    - install multiple packages at once: `npm i -S react @types/react redux` etc...
