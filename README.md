@@ -26,7 +26,7 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
 1. Fork this repository or
 1. Download the source files
     1. Clone this repository
-    1. Delete the *.git* folder
+    1. Delete the *.git* folder and this readme file
     1. Copy source files into your own repository
 1. Run command `npm install` to download dependencies
 1. Run build process with command `npm run build`
