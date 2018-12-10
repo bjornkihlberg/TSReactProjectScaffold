@@ -22,7 +22,7 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
 - [chai](https://www.npmjs.com/package/chai) and [@types/chai](https://www.npmjs.com/package/@types/chai)
 - [mocha](https://www.npmjs.com/package/mocha) and [@types/mocha](https://www.npmjs.com/package/@types/mocha)
 
-## How to setup
+## How to use project scaffold
 1. Fork this repository or
 1. Download the source files
     1. Clone this repository
