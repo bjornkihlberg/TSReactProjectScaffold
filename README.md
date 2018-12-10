@@ -6,6 +6,7 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
 - [React](https://reactjs.org/), [Redux](https://redux.js.org/) and [React-Redux](https://react-redux.js.org/)
 - [TSLint](https://palantir.github.io/tslint/)
 - [Webpack](https://webpack.js.org/)
+- [Chai](https://www.chaijs.com/) and [Mocha](https://mochajs.org/)
 
 ## How to setup
 1. Fork this repository or
