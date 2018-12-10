@@ -1,4 +1,4 @@
-# TSReactProjectScaffold
+# TypeScript-React-Redux-Webpack project scaffold
 Project scaffold for quickly setting up a TypeScript, React, Redux project with webpack.
 
 ## Technologies
