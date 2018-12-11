@@ -7,6 +7,14 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.tsx?$/,
+                enforce: 'pre',
+                use: [{
+                    loader: 'tslint-loader',
+                    options: { emitErrors: true, typeCheck: true }
+                }]
+            },
+            {
                 test: /\.css$/,
                 use: [
                     'style-loader',
