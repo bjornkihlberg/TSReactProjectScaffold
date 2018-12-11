@@ -4,16 +4,15 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
 ## Technologies
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/), [Redux](https://redux.js.org/) and [React-Redux](https://react-redux.js.org/)
-- [TSLint](https://palantir.github.io/tslint/)
+- [TSLint](https://palantir.github.io/tslint/) and [TSLint Immutable](https://github.com/jonaskello/tslint-immutable)
 - [Webpack](https://webpack.js.org/)
 - [Chai](https://www.chaijs.com/) and [Mocha](https://mochajs.org/)
 
 ## Packages
 ### Development dependencies
-- [webpack](https://www.npmjs.com/package/webpack)
-- [webpack-cli](https://www.npmjs.com/package/webpack-cli)
-- [webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server)
-- [tslint](https://www.npmjs.com/package/tslint)
+- [webpack](https://www.npmjs.com/package/webpack) and [webpack-cli](https://www.npmjs.com/package/webpack-cli)
+- [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin), [style-loader](https://www.npmjs.com/package/style-loader) and [css-loader](https://www.npmjs.com/package/css-loader)
+- [tslint](https://www.npmjs.com/package/tslint) and [tslint-immutable](https://www.npmjs.com/package/tslint-immutable)
 - [tslint-loader](https://www.npmjs.com/package/tslint-loader)
 - [typescript](https://www.npmjs.com/package/typescript)
 - [ts-loader](https://www.npmjs.com/package/ts-loader)
