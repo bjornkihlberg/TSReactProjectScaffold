@@ -40,6 +40,10 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
 
 ## How to reproduce project scaffold manually
 1. Initialize npm project with command `npm init`
+1. **Important!** create *.gitignore* file and and include following entries:
+    - *node_modules*
+    - *package-lock.json*
+    - *output*
 1. Install development dependencies with command `npm i -D package-name`
     - for example: `npm i -D ts-loader`
 1. Install runtime dependencies with command `npm i -S package-name`
