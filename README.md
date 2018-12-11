@@ -52,4 +52,4 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
     - *webpack.config.js*
     - *tsconfig.json*
     - *tslint.json*
-1. Setup the unit test script in *package.json*
+1. Setup the unit test script in *package.json* to consider *.spec.ts* files as test files
