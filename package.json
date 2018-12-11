@@ -19,7 +19,9 @@
     "tslint",
     "mocha",
     "chai",
-    "webpack"
+    "webpack",
+    "functional programming",
+    "immutability"
   ],
   "author": "bjorn.wilhelm.kihlberg@gmail.com",
   "license": "ISC",
