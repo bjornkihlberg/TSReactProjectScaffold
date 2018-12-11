@@ -4,7 +4,9 @@
   "description": "ts react project scaffold",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "ts-mocha --watch --watch-extensions ts,tsx src/**/*.spec.ts"
+    "test": "ts-mocha --watch --watch-extensions ts,tsx src/**/*.spec.ts",
+    "dev": "webpack --watch --progress",
+    "release": "webpack -p"
   },
   "repository": {
     "type": "git",
