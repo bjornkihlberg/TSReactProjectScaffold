@@ -49,3 +49,7 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
 1. Install runtime dependencies with command `npm i -S package-name`
     - for example: `npm i -S react`
     - install multiple packages at once: `npm i -S react @types/react redux` etc...
+1. Setup the following files in project root to configure build process:
+    - *webpack.config.js*
+    - *tsconfig.json*
+    - *tslint.json*
