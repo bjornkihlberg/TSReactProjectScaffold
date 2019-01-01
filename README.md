@@ -1,5 +1,5 @@
 # TypeScript-React-Redux-Webpack project scaffold
-Project scaffold for quickly setting up a TypeScript, React, Redux project with webpack. Including TSLint for extra safety and Mocha+Chai for unit testing.
+Project scaffold for quickly setting up a TypeScript, React, Redux project with webpack. Including TSLint for extra safety and Mocha+Chai for unit testing. Project uses CSS modules to avoid namespace collisions with CSS classes.
 
 ## Technologies
 - [TypeScript](https://www.typescriptlang.org/)
