@@ -1,8 +1,14 @@
 import * as React from 'react'
 import { render as renderDom } from 'react-dom'
-import { } from 'react-redux'
-import { } from 'redux'
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
 
-import * as styles from './main.css'
+import { MyComponent } from './MyComponent'
+import { reducer } from './state'
 
-renderDom(<h1 className={styles.mystyle}>Hello!</h1>, document.getElementById('app'))
+const app =
+    <Provider store={createStore(reducer)}>
+        <MyComponent />
+    </Provider>
+
+renderDom(app, document.getElementById('app'))
