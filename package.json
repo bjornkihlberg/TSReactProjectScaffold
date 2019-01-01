@@ -5,8 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "ts-mocha --watch --watch-extensions ts,tsx src/**/*.spec.ts",
-    "dev": "webpack --watch --progress",
-    "release": "webpack -p"
+    "dev": "webpack --watch --progress --mode development",
+    "release": "webpack -p --mode production"
   },
   "repository": {
     "type": "git",
