@@ -33,11 +33,27 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
     1. Clone this repository
     1. Delete the *.git* folder and this readme file
     1. Copy source files into your own repository
-1. Run command `npm install` to download dependencies
-1. Run automatic development build process with command `npm run dev`
-1. Run build process for release with command `npm run release`
-    - optimized output appears in *dist* folder
-1. Run tests with command `npm test`
+1. Run download dependencies with command:
+    ```
+    npm install
+    ```
+1. Run automatic development build process with command:
+    ```
+    npm run dev
+    ```
+1. Run build process for release with command:
+    ```
+    npm run release
+    ```
+    *optimized output appears in *dist* folder*
+1. Run tests with command:
+    ```
+    npm test
+    ```
+1. Start dev server with command:
+    ```
+    npm run server
+    ```
 
 ## How to reproduce project scaffold manually
 1. Initialize npm project with command `npm init`
