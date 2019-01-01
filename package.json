@@ -1,61 +1,63 @@
 {
-  "name": "tsreactprojectscaffold",
-  "version": "1.0.0",
-  "description": "ts react project scaffold",
-  "main": "webpack.config.js",
-  "scripts": {
-    "test": "ts-mocha --watch --watch-extensions ts,tsx src/**/*.spec.ts",
-    "dev": "webpack --watch --progress --mode development",
-    "release": "webpack -p --mode production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bjornkihlberg/TSReactProjectScaffold.git"
-  },
-  "keywords": [
-    "typescript",
-    "react",
-    "redux",
-    "project",
-    "scaffold",
-    "tslint",
-    "mocha",
-    "chai",
-    "webpack",
-    "functional programming",
-    "immutability"
-  ],
-  "author": "bjorn.wilhelm.kihlberg@gmail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bjornkihlberg/TSReactProjectScaffold/issues"
-  },
-  "homepage": "https://github.com/bjornkihlberg/TSReactProjectScaffold#readme",
-  "devDependencies": {
-    "@types/chai": "^4.1.7",
-    "@types/mocha": "^5.2.5",
-    "chai": "^4.2.0",
-    "css-loader": "^2.0.0",
-    "html-webpack-plugin": "^3.2.0",
-    "mocha": "^5.2.0",
-    "style-loader": "^0.23.1",
-    "ts-loader": "^5.3.1",
-    "ts-mocha": "^2.0.0",
-    "ts-node": "^7.0.1",
-    "tslint": "^5.11.0",
-    "tslint-loader": "^3.5.4",
-    "tslint-immutable": "^5.0.0",
-    "typescript": "^3.2.2",
-    "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2"
-  },
-  "dependencies": {
-    "@types/react": "^16.7.13",
-    "@types/react-dom": "^16.0.11",
-    "@types/react-redux": "^6.0.11",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-redux": "^6.0.0",
-    "redux": "^4.0.1"
-  }
+    "name": "tsreactprojectscaffold",
+    "version": "1.0.0",
+    "description": "ts react project scaffold",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "ts-mocha --watch --watch-extensions ts,tsx src/**/*.spec.ts",
+        "dev": "webpack --watch --progress --mode development",
+        "release": "webpack -p --mode production",
+        "server": "lite-server -c server.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bjornkihlberg/TSReactProjectScaffold.git"
+    },
+    "keywords": [
+        "typescript",
+        "react",
+        "redux",
+        "project",
+        "scaffold",
+        "tslint",
+        "mocha",
+        "chai",
+        "webpack",
+        "functional programming",
+        "immutability"
+    ],
+    "author": "bjorn.wilhelm.kihlberg@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bjornkihlberg/TSReactProjectScaffold/issues"
+    },
+    "homepage": "https://github.com/bjornkihlberg/TSReactProjectScaffold#readme",
+    "devDependencies": {
+        "@types/chai": "^4.1.7",
+        "@types/mocha": "^5.2.5",
+        "chai": "^4.2.0",
+        "css-loader": "^2.0.0",
+        "html-webpack-plugin": "^3.2.0",
+        "lite-server": "^2.4.0",
+        "mocha": "^5.2.0",
+        "style-loader": "^0.23.1",
+        "ts-loader": "^5.3.1",
+        "ts-mocha": "^2.0.0",
+        "ts-node": "^7.0.1",
+        "tslint": "^5.11.0",
+        "tslint-immutable": "^5.0.0",
+        "tslint-loader": "^3.5.4",
+        "typescript": "^3.2.2",
+        "webpack": "^4.27.1",
+        "webpack-cli": "^3.1.2"
+    },
+    "dependencies": {
+        "@types/react": "^16.7.13",
+        "@types/react-dom": "^16.0.11",
+        "@types/react-redux": "^6.0.11",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3",
+        "react-redux": "^6.0.0",
+        "redux": "^4.0.1"
+    }
 }
