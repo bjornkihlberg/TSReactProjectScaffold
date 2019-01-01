@@ -36,7 +36,7 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
 1. Run command `npm install` to download dependencies
 1. Run automatic development build process with command `npm run dev`
 1. Run build process for release with command `npm run release`
-    - optimized output appears in output folder
+    - optimized output appears in *dist* folder
 1. Run tests with command `npm test`
 
 ## How to reproduce project scaffold manually
