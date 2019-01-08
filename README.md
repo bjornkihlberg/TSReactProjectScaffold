@@ -1,6 +1,13 @@
 # TypeScript-React-Redux-Webpack project scaffold
 Project scaffold for quickly setting up a TypeScript, React, Redux project with webpack. Including TSLint for extra safety and Mocha+Chai for unit testing. Project uses CSS modules to avoid namespace collisions with CSS classes.
 
+[TSLint](https://palantir.github.io/tslint/)
+and
+[TSLint Immutable](https://github.com/jonaskello/tslint-immutable)
+allows us to enforce immutability.
+
+![nomutation](https://user-images.githubusercontent.com/38290734/50814886-76d18c80-131b-11e9-82f9-6a037bd5e39a.gif)
+
 ## Technologies
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/), [Redux](https://redux.js.org/) and [React-Redux](https://react-redux.js.org/)
@@ -35,11 +42,3 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
     ```
     npm run server
     ```
-
-## Description
-[TSLint](https://palantir.github.io/tslint/)
-and
-[TSLint Immutable](https://github.com/jonaskello/tslint-immutable)
-allows us to enforce immutability.
-
-![nomutation](https://user-images.githubusercontent.com/38290734/50814886-76d18c80-131b-11e9-82f9-6a037bd5e39a.gif)
