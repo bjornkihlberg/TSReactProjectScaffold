@@ -41,4 +41,5 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
 and
 [TSLint Immutable](https://github.com/jonaskello/tslint-immutable)
 allows us to enforce immutability.
+
 ![nomutation](https://user-images.githubusercontent.com/38290734/50814886-76d18c80-131b-11e9-82f9-6a037bd5e39a.gif)
