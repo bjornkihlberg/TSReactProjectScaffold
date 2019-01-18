@@ -4,9 +4,13 @@ Project scaffold for quickly setting up a TypeScript, React, Redux project with 
 [TSLint](https://palantir.github.io/tslint/)
 and
 [TSLint Immutable](https://github.com/jonaskello/tslint-immutable)
-allows us to enforce immutability.
+allow us to enforce immutability.
 
 ![nomutation](https://user-images.githubusercontent.com/38290734/50814886-76d18c80-131b-11e9-82f9-6a037bd5e39a.gif)
+
+CSS modules allow us to work with non-global css classes.
+
+![cssmodules](https://user-images.githubusercontent.com/38290734/51380442-13610f00-1b12-11e9-81a6-f1c2a0adf155.gif)
 
 ## Technologies
 - [TypeScript](https://www.typescriptlang.org/)
